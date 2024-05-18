@@ -1,0 +1,65 @@
+{
+    "window.zoomLevel": 0,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.5,
+    // "editor.rulers": [80, 123],
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "default",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": true,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        
+    },
+    "apc.header": {
+        "height": 35
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter Display",
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-body": "padding: 8px",
+        ".pane-header": "padding 0 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    },
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": false, 
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono NL",
+    "workbench.tree.stickyScrollMaxItemCount": 1,
+    "editor.stickyScroll.enabled": false,
+    "settingsSync.ignoredSettings": [
+        "workbench.colorCustomizations",
+        "editor.tokenColorCustomizations"
+    ],
+    "window.menuBarVisibility": "compact",
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "codesnap.backgroundColor": "#0D1117",
+    "codesnap.showLineNumbers": false,
+    "workbench.colorTheme": "Vesper ++",
+
+}
